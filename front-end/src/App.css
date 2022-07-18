@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-right: 10rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+label {
+  margin-right: 1rem;
+}
+
+.App-inp {
+  padding: 1rem;
+}
+
+.App-btn {
+  margin-top: 2rem;
+  margin-left: 50rem;
+}
+
+@media screen and (max-width:480px) {
+  .App {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .App-btn {
+    margin-top: 2rem;
+    margin-left: 5rem;
+  }
+
+}

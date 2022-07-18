@@ -1,0 +1,6 @@
+.userForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 30rem;
+}
